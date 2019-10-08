@@ -4,6 +4,6 @@ describe('webpack.base.js test case', () => {
   const baseConfig = require('../../lib/webpack.base');
 
   it('entry', () => {
-    assert.equal(baseConfig.entry.index, 'F:/bddbzz/builder/test/smoke/template/src/pages/index/index.js');
+    assert.ok(baseConfig.entry.index.includes('smoke/template/src/pages/index/index.js'));
   });
 });
