@@ -9,7 +9,8 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true
+    es6: true,
+    mocha: true
   },
   extends: "airbnb-base",
   rules: {
@@ -18,7 +19,8 @@ module.exports = {
     "import/no-extraneous-dependencies": 0,
     "import/extensions": 0,
     "no-console": 0,
-    "no-unused-vars": 1
+    "no-unused-vars": 0,
+    "global-require": 0
   },
   settings: {
     'import/resolver': {

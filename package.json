@@ -1,14 +1,18 @@
 {
   "name": "builder",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack builder",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "smoke": "node ./test/smoke/index.js",
     "eslint": "eslint ./lib --fix"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "builder"
+  ],
+  "author": "MonkeyZz",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.5.5",

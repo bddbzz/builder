@@ -1,6 +1,3 @@
-/* eslint-disable no-debugger */
-/* eslint-disable no-console */
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
